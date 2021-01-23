@@ -1,7 +1,7 @@
-import Layout from '../components/Layout'
+import { Layout } from '../components'
 
 const IndexPage = () => (
-  <Layout title="Mainstreet | The online shopping mall">
+  <Layout>
   </Layout>
 )
 
