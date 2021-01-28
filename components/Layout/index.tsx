@@ -9,9 +9,7 @@ type Props = {
 export const Layout: React.FC = ({ children, title }: Props) => (
   <div>
     <Head title={title} />
-    <main>
-      {children}
-    </main>
+    {children}
     <footer>
     </footer>
   </div>
